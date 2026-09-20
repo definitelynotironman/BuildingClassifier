@@ -1,0 +1,5 @@
+# Large datasets
+data/*.parquet
+
+# Generated processed data
+data/preprocessed/*.pkl
