@@ -1,5 +1,26 @@
-# Large datasets
+# ---- Data (too big for git, see data/README.md) ----
 data/*.parquet
+data/**/*.pkl
+*.part
 
-# Generated processed data
-data/preprocessed/*.pkl
+# ---- Generated outputs ----
+models/
+amsterdam_transfer_results.csv
+headline_metrics.csv
+catboost_info/
+
+# ---- Python / Jupyter clutter ----
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+statsvenv/
+
+# ---- OS clutter ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Figure script cache ----
+docs/_cache/
